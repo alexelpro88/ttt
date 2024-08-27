@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+}
+
+.purple {
+    background-color: rgb(13, 0, 128);
+}
+
+.blue {
+    width: 90%;
+    height: 90%;
+    background-color: rgb(255, 255, 0);
+}
+
+.yellow {
+    width: 80%;
+    height: 80%;
+    background-color: rgb(13, 255, 0);
+}
+
+.orange {
+    width: 70%;
+    height: 70%;
+    background-color: rgb(20, 109, 33);
+}
+
+.green {
+    width: 60%;
+    height: 60%;
+    background-color: rgb(220, 20, 16);
+}
+
+.pink {
+    width: 50%;
+    height: 50%;
+    background-color: pink;
+}
+
+.red {
+    width: 40%;
+    height: 40%;
+    background-color: red;
+}
+
+.gray {
+    width: 30%;
+    height: 30%;
+    background-color: rgb(47, 202, 148);
+}
+
+.name {
+    background-color: #585555;
+    color: white;
+    padding: 10px 20px; /* Adjust padding for rectangle shape */
+    font-size: 24px;
+    text-align: center;
+    width: 300px; /* Set a fixed width for the rectangle */
+    height: 100px; /* Set a fixed height for the rectangle */
+}
